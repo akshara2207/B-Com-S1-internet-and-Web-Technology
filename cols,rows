@@ -1,0 +1,37 @@
+This is part of the <frameset> tag, which replaces the <body> tag when using frames in older HTML.
+
+rows="30%,70%" means:
+
+The browser window is divided horizontally into two parts (rows):
+
+The first row takes up 30% of the window height.
+
+The second row takes up 70% of the window height.
+----------------------------  ← 30% (top frame - top.html)
+|                          |
+|      Top Frame           |
+|                          |
+----------------------------  ← 70% (split into two columns)
+
+|        |                |
+|  Left  |    Right       |
+| Frame  |    Frame       |
+|        |                |
+----------------------------
+
+
+This tag splits the area vertically into two columns.
+
+cols="50%,50%" means:
+
++--------------------------+
+|                          | ← Top frame (30%)
++-----------+--------------+
+|           |              |
+| Left      |   Right      | ← Bottom frame split into 2 columns (each 50%)
+| Frame     |   Frame      |
+|           |              |
++-----------+--------------+
+
+
+
